@@ -1,0 +1,6 @@
+{
+  "name": "KanBağı - Acil Kan Bağışı Platformu",
+  "description": "Acil kan ihtiyacı olanlar ile gönüllü bağışçıları buluşturan mobil uyumlu kan bağışı ve ilan platformu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

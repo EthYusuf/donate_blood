@@ -1,0 +1,28 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Blood requests (ilanlar)
+    match /blood_requests/{requestId} {
+      allow read: if true;
+      allow create: if request.resource.data.patientName is string &&
+                      request.resource.data.bloodType is string &&
+                      request.resource.data.unitsNeeded is int &&
+                      request.resource.data.phone is string &&
+                      request.resource.data.city is string &&
+                      request.resource.data.hospital is string;
+      allow update: if true;
+      allow delete: if true;
+    }
+
+    // Voluntary donors (gönüllü bağışçılar)
+    match /donors/{donorId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Direct offers / support pledges for specific request
+    match /blood_requests/{requestId}/responses/{responseId} {
+      allow read, write: if true;
+    }
+  }
+}
