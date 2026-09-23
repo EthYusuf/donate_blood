@@ -7,7 +7,16 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
 
 > **"1 Ünite Kan, 3 Can Kurtarır."**  
-> Acil kan ihtiyacı olan hasta ve hasta yakınları ile gönüllü bağışçıları doğrudan ve gerçek zamanlı olarak bir araya getiren, mobil öncelikli (mobile-first) profesyonel kan bağışı ve dayanışma platformu.
+> Acil kan ihtiyacı olan hasta ve hasta yakınları ile gönüllü bağışçıları doğrudan ve gerçek zamanlı olarak bir araya getiren, **%100 Açık Kaynaklı (Open Source)**, mağaza indirmesi gerektirmeden tarayıcıdan ve mobilden anında çalışan web ve mobil platformu.
+
+---
+
+## 🌐 Açık Kaynak & Doğrudan Web Erişimi
+
+KanBağı tamamen **açık kaynaklı** bir sosyal sorumluluk ve sağlık projesidir:
+- **Mağaza İndirmesi Yok:** App Store veya Google Play Store'dan herhangi bir uygulama indirmeye gerek kalmadan, doğrudan mobil tarayıcılardan (PWA uyumlu) tek tıkla çalışır.
+- **Topluluk Odaklı:** Kâr amacı gütmez, veriler hasta ile bağışçı arasında doğrudan iletişim kurulması için kullanılır.
+- **Şeffaf & Bağımsız:** Tüm kaynak kodları, güvenlik kuralları ve veritabanı şemaları kamuya açıktır ve geliştiricilerin katkısına açıktır.
 
 ---
 
